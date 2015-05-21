@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface MKNWorkDays : NSObject
-
+-(instancetype)init;
+-(instancetype)initWithLocale:(NSLocale *)locale;
+-(NSUInteger)firstWorkDay;
+-(NSUInteger)firstWeekendDay;
+-(NSIndexSet *)workDays;
+-(NSIndexSet *)weekendDays;
 @end

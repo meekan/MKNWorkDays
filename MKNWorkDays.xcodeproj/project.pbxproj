@@ -10,6 +10,7 @@
 		D7D90A221B0DE18A006CD0A1 /* MKNWorkDays.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7D90A211B0DE18A006CD0A1 /* MKNWorkDays.h */; };
 		D7D90A241B0DE18A006CD0A1 /* MKNWorkDays.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D90A231B0DE18A006CD0A1 /* MKNWorkDays.m */; };
 		D7D90A2A1B0DE18A006CD0A1 /* libMKNWorkDays.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D90A1E1B0DE18A006CD0A1 /* libMKNWorkDays.a */; };
+		D7D90A391B0DE29A006CD0A1 /* XCTestWorkDays.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D90A381B0DE29A006CD0A1 /* XCTestWorkDays.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,9 @@
 		D7D90A231B0DE18A006CD0A1 /* MKNWorkDays.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKNWorkDays.m; sourceTree = "<group>"; };
 		D7D90A291B0DE18A006CD0A1 /* MKNWorkDaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKNWorkDaysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D90A2F1B0DE18A006CD0A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D90A381B0DE29A006CD0A1 /* XCTestWorkDays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCTestWorkDays.m; sourceTree = "<group>"; };
+		D7D90A3A1B0DF1A7006CD0A1 /* workdays_per_country.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = workdays_per_country.plist; sourceTree = "<group>"; };
+		D7D90A3B1B0DF1BB006CD0A1 /* workdays_per_country.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = workdays_per_country.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 			children = (
 				D7D90A211B0DE18A006CD0A1 /* MKNWorkDays.h */,
 				D7D90A231B0DE18A006CD0A1 /* MKNWorkDays.m */,
+				D7D90A3A1B0DF1A7006CD0A1 /* workdays_per_country.plist */,
+				D7D90A3B1B0DF1BB006CD0A1 /* workdays_per_country.json */,
 			);
 			path = MKNWorkDays;
 			sourceTree = "<group>";
@@ -93,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				D7D90A2E1B0DE18A006CD0A1 /* Supporting Files */,
+				D7D90A381B0DE29A006CD0A1 /* XCTestWorkDays.m */,
 			);
 			path = MKNWorkDaysTests;
 			sourceTree = "<group>";
@@ -201,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7D90A391B0DE29A006CD0A1 /* XCTestWorkDays.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
