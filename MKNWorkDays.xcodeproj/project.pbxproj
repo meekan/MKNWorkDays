@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7D90A221B0DE18A006CD0A1 /* MKNWorkDays.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7D90A211B0DE18A006CD0A1 /* MKNWorkDays.h */; };
+		D7D90A241B0DE18A006CD0A1 /* MKNWorkDays.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D90A231B0DE18A006CD0A1 /* MKNWorkDays.m */; };
+		D7D90A2A1B0DE18A006CD0A1 /* libMKNWorkDays.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D90A1E1B0DE18A006CD0A1 /* libMKNWorkDays.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7D90A2B1B0DE18A006CD0A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7D90A161B0DE18A006CD0A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7D90A1D1B0DE18A006CD0A1;
+			remoteInfo = MKNWorkDays;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D7D90A1C1B0DE18A006CD0A1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D7D90A221B0DE18A006CD0A1 /* MKNWorkDays.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D7D90A1E1B0DE18A006CD0A1 /* libMKNWorkDays.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMKNWorkDays.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D90A211B0DE18A006CD0A1 /* MKNWorkDays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKNWorkDays.h; sourceTree = "<group>"; };
+		D7D90A231B0DE18A006CD0A1 /* MKNWorkDays.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKNWorkDays.m; sourceTree = "<group>"; };
+		D7D90A291B0DE18A006CD0A1 /* MKNWorkDaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKNWorkDaysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D90A2F1B0DE18A006CD0A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7D90A1B1B0DE18A006CD0A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D90A261B0DE18A006CD0A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D90A2A1B0DE18A006CD0A1 /* libMKNWorkDays.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7D90A151B0DE189006CD0A1 = {
+			isa = PBXGroup;
+			children = (
+				D7D90A201B0DE18A006CD0A1 /* MKNWorkDays */,
+				D7D90A2D1B0DE18A006CD0A1 /* MKNWorkDaysTests */,
+				D7D90A1F1B0DE18A006CD0A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7D90A1F1B0DE18A006CD0A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7D90A1E1B0DE18A006CD0A1 /* libMKNWorkDays.a */,
+				D7D90A291B0DE18A006CD0A1 /* MKNWorkDaysTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7D90A201B0DE18A006CD0A1 /* MKNWorkDays */ = {
+			isa = PBXGroup;
+			children = (
+				D7D90A211B0DE18A006CD0A1 /* MKNWorkDays.h */,
+				D7D90A231B0DE18A006CD0A1 /* MKNWorkDays.m */,
+			);
+			path = MKNWorkDays;
+			sourceTree = "<group>";
+		};
+		D7D90A2D1B0DE18A006CD0A1 /* MKNWorkDaysTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7D90A2E1B0DE18A006CD0A1 /* Supporting Files */,
+			);
+			path = MKNWorkDaysTests;
+			sourceTree = "<group>";
+		};
+		D7D90A2E1B0DE18A006CD0A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7D90A2F1B0DE18A006CD0A1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7D90A1D1B0DE18A006CD0A1 /* MKNWorkDays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7D90A321B0DE18A006CD0A1 /* Build configuration list for PBXNativeTarget "MKNWorkDays" */;
+			buildPhases = (
+				D7D90A1A1B0DE18A006CD0A1 /* Sources */,
+				D7D90A1B1B0DE18A006CD0A1 /* Frameworks */,
+				D7D90A1C1B0DE18A006CD0A1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKNWorkDays;
+			productName = MKNWorkDays;
+			productReference = D7D90A1E1B0DE18A006CD0A1 /* libMKNWorkDays.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D7D90A281B0DE18A006CD0A1 /* MKNWorkDaysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7D90A351B0DE18A006CD0A1 /* Build configuration list for PBXNativeTarget "MKNWorkDaysTests" */;
+			buildPhases = (
+				D7D90A251B0DE18A006CD0A1 /* Sources */,
+				D7D90A261B0DE18A006CD0A1 /* Frameworks */,
+				D7D90A271B0DE18A006CD0A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7D90A2C1B0DE18A006CD0A1 /* PBXTargetDependency */,
+			);
+			name = MKNWorkDaysTests;
+			productName = MKNWorkDaysTests;
+			productReference = D7D90A291B0DE18A006CD0A1 /* MKNWorkDaysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7D90A161B0DE18A006CD0A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Meekan;
+				TargetAttributes = {
+					D7D90A1D1B0DE18A006CD0A1 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D7D90A281B0DE18A006CD0A1 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D7D90A191B0DE18A006CD0A1 /* Build configuration list for PBXProject "MKNWorkDays" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D7D90A151B0DE189006CD0A1;
+			productRefGroup = D7D90A1F1B0DE18A006CD0A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7D90A1D1B0DE18A006CD0A1 /* MKNWorkDays */,
+				D7D90A281B0DE18A006CD0A1 /* MKNWorkDaysTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7D90A271B0DE18A006CD0A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7D90A1A1B0DE18A006CD0A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D90A241B0DE18A006CD0A1 /* MKNWorkDays.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D90A251B0DE18A006CD0A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7D90A2C1B0DE18A006CD0A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7D90A1D1B0DE18A006CD0A1 /* MKNWorkDays */;
+			targetProxy = D7D90A2B1B0DE18A006CD0A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D7D90A301B0DE18A006CD0A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D7D90A311B0DE18A006CD0A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7D90A331B0DE18A006CD0A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D7D90A341B0DE18A006CD0A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D7D90A361B0DE18A006CD0A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MKNWorkDaysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7D90A371B0DE18A006CD0A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MKNWorkDaysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7D90A191B0DE18A006CD0A1 /* Build configuration list for PBXProject "MKNWorkDays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D90A301B0DE18A006CD0A1 /* Debug */,
+				D7D90A311B0DE18A006CD0A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7D90A321B0DE18A006CD0A1 /* Build configuration list for PBXNativeTarget "MKNWorkDays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D90A331B0DE18A006CD0A1 /* Debug */,
+				D7D90A341B0DE18A006CD0A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7D90A351B0DE18A006CD0A1 /* Build configuration list for PBXNativeTarget "MKNWorkDaysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D90A361B0DE18A006CD0A1 /* Debug */,
+				D7D90A371B0DE18A006CD0A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7D90A161B0DE18A006CD0A1 /* Project object */;
+}
