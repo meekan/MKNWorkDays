@@ -11,6 +11,8 @@
 		D7D90A241B0DE18A006CD0A1 /* MKNWorkDays.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D90A231B0DE18A006CD0A1 /* MKNWorkDays.m */; };
 		D7D90A2A1B0DE18A006CD0A1 /* libMKNWorkDays.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D90A1E1B0DE18A006CD0A1 /* libMKNWorkDays.a */; };
 		D7D90A391B0DE29A006CD0A1 /* XCTestWorkDays.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D90A381B0DE29A006CD0A1 /* XCTestWorkDays.m */; };
+		D7D90A411B0DFC77006CD0A1 /* workdays_per_country.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7D90A3A1B0DF1A7006CD0A1 /* workdays_per_country.plist */; };
+		D7D90A431B0DFD6C006CD0A1 /* workdays_per_country.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7D90A3A1B0DF1A7006CD0A1 /* workdays_per_country.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,10 +89,9 @@
 		D7D90A201B0DE18A006CD0A1 /* MKNWorkDays */ = {
 			isa = PBXGroup;
 			children = (
+				D7D90A3C1B0DFB6C006CD0A1 /* Supporting Files */,
 				D7D90A211B0DE18A006CD0A1 /* MKNWorkDays.h */,
 				D7D90A231B0DE18A006CD0A1 /* MKNWorkDays.m */,
-				D7D90A3A1B0DF1A7006CD0A1 /* workdays_per_country.plist */,
-				D7D90A3B1B0DF1BB006CD0A1 /* workdays_per_country.json */,
 			);
 			path = MKNWorkDays;
 			sourceTree = "<group>";
@@ -112,6 +113,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D7D90A3C1B0DFB6C006CD0A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7D90A3A1B0DF1A7006CD0A1 /* workdays_per_country.plist */,
+				D7D90A3B1B0DF1BB006CD0A1 /* workdays_per_country.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,6 +132,7 @@
 				D7D90A1A1B0DE18A006CD0A1 /* Sources */,
 				D7D90A1B1B0DE18A006CD0A1 /* Frameworks */,
 				D7D90A1C1B0DE18A006CD0A1 /* CopyFiles */,
+				D7D90A401B0DFC65006CD0A1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -138,7 +149,7 @@
 			buildPhases = (
 				D7D90A251B0DE18A006CD0A1 /* Sources */,
 				D7D90A261B0DE18A006CD0A1 /* Frameworks */,
-				D7D90A271B0DE18A006CD0A1 /* Resources */,
+				D7D90A421B0DFD68006CD0A1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -186,10 +197,19 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D7D90A271B0DE18A006CD0A1 /* Resources */ = {
+		D7D90A401B0DFC65006CD0A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7D90A411B0DFC77006CD0A1 /* workdays_per_country.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D90A421B0DFD68006CD0A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D90A431B0DFD6C006CD0A1 /* workdays_per_country.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
