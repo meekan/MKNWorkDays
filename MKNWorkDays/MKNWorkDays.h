@@ -9,13 +9,13 @@
 #import <Foundation/Foundation.h>
 
 @interface MKNWorkDays : NSObject
-+(id)workDays;
-+(id)workDaysWithLocale:(NSLocale *)locale;
++(instancetype)workDays;
++(instancetype)workDaysWithLocale:(NSLocale *)locale;
 -(instancetype)init;
--(instancetype)initWithLocale:(NSLocale *)locale;
--(NSString *)countryCode;
--(NSNumber *)firstWorkDay;
--(NSNumber *)firstWeekendDay;
--(NSIndexSet *)workDays;
--(NSIndexSet *)weekendDays;
+-(instancetype)initWithLocale:(NSLocale *)locale NS_DESIGNATED_INITIALIZER;
+@property (NS_NONATOMIC_IOSONLY, readonly, copy) NSString *countryCode;
+@property (NS_NONATOMIC_IOSONLY, readonly, copy) NSNumber *firstWorkDay;
+@property (NS_NONATOMIC_IOSONLY, readonly, copy) NSNumber *firstWeekendDay;
+@property (NS_NONATOMIC_IOSONLY, readonly, copy) NSIndexSet *workDays;
+@property (NS_NONATOMIC_IOSONLY, readonly, copy) NSIndexSet *weekendDays;
 @end

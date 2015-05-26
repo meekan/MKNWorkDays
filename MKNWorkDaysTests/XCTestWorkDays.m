@@ -82,7 +82,7 @@ NSUInteger SATURDAY = 7;
     NSString *testCountryCode = @"he_IL";
     NSLocale *locale = [NSLocale localeWithLocaleIdentifier:testCountryCode];
     MKNWorkDays *israel = [[MKNWorkDays alloc]initWithLocale:locale];
-
+    
     XCTAssertEqual([[israel firstWeekendDay] unsignedIntegerValue], FRIDAY);
 }
 
